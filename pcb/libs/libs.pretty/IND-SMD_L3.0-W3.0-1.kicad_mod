@@ -1,0 +1,119 @@
+(footprint "IND-SMD_L3.0-W3.0-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "e8d266ee-0529-4bcf-837a-a95ab9f313aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L3.0-W3.0-1"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "b2593355-6525-46ac-bf93-b708cc046f99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60a7195c-7de1-4581-921c-9bd8dc07bcd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "762a7b1e-67a3-49b8-b318-f5cf764a89c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.52 -1.65)
+		(end 1.52 -1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29271a2b-8565-41e9-8b2e-729ec3613d05")
+	)
+	(fp_line
+		(start 1.52 1.65)
+		(end -1.52 1.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "656cd019-626f-4a24-8a16-229930228acb")
+	)
+	(fp_circle
+		(center 1.5 -1.5)
+		(end 1.53 -1.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "12b32f93-deb3-453a-8c06-39b86661b673")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7acbe67b-2bec-41da-bf42-6ffb88f9427f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0 180)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a833be14-c04b-45b1-b8b9-9da8ad1f20b1")
+	)
+	(pad "2" smd rect
+		(at 1.15 0 180)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7b683ad2-d8f7-48df-94ac-1e19580632e1")
+	)
+	(embedded_fonts no)
+	(model "/libs/libs.3dshapes/IND-SMD_L3.0-W3.0-1.wrl"
+		(offset
+			(xyz 0 -0 1.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
