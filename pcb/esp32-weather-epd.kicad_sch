@@ -5731,10 +5731,6 @@
 		(uuid "0e094a3a-d393-40b1-a81e-5d2854796b9c")
 	)
 	(no_connect
-		(at 105.41 104.14)
-		(uuid "2223c21d-f91f-48c7-add7-91bac4f25d36")
-	)
-	(no_connect
 		(at 105.41 162.56)
 		(uuid "2ad0b911-8c2d-42f8-bad3-38eab0ad3ee8")
 	)
@@ -7210,6 +7206,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 104.14) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83731ad0-fd5c-4ddc-8470-5f0b96625c67")
+	)
+	(wire
+		(pts
 			(xy 154.94 69.85) (xy 153.67 69.85)
 		)
 		(stroke
@@ -8557,6 +8563,16 @@
 			(justify right bottom)
 		)
 		(uuid "22051d1c-3869-4830-992d-1891586a49e9")
+	)
+	(label "IO-0{slash}D5"
+		(at 113.03 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "275150d6-ac67-412f-83ab-2d8c12887fbf")
 	)
 	(label "BUSY"
 		(at 113.03 124.46 180)
