@@ -5731,10 +5731,6 @@
 		(uuid "0e094a3a-d393-40b1-a81e-5d2854796b9c")
 	)
 	(no_connect
-		(at 105.41 111.76)
-		(uuid "0e4abce7-16aa-40d1-a7f3-0dc25084d32e")
-	)
-	(no_connect
 		(at 105.41 104.14)
 		(uuid "2223c21d-f91f-48c7-add7-91bac4f25d36")
 	)
@@ -5801,10 +5797,6 @@
 	(no_connect
 		(at 48.26 29.21)
 		(uuid "f1337921-688c-421b-b1d6-5e5467017227")
-	)
-	(no_connect
-		(at 105.41 106.68)
-		(uuid "faca6012-f842-4e69-aad9-5fd92849f2e1")
 	)
 	(wire
 		(pts
@@ -6298,6 +6290,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 111.76) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317b2796-153f-427c-87c0-231fa73be049")
+	)
+	(wire
+		(pts
 			(xy 151.13 161.29) (xy 152.4 161.29)
 		)
 		(stroke
@@ -6498,7 +6500,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 134.62) (xy 111.76 134.62)
+			(xy 105.41 134.62) (xy 113.03 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6778,7 +6780,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 139.7) (xy 111.76 139.7)
+			(xy 105.41 139.7) (xy 113.03 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7028,7 +7030,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 142.24) (xy 111.76 142.24)
+			(xy 105.41 142.24) (xy 113.03 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7478,7 +7480,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 121.92) (xy 111.76 121.92)
+			(xy 105.41 121.92) (xy 113.03 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7718,7 +7720,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 124.46) (xy 111.76 124.46)
+			(xy 105.41 124.46) (xy 113.03 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7968,6 +7970,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef646a7-3803-40d4-a032-c59e9d91ba93")
+	)
+	(wire
+		(pts
 			(xy 48.26 128.27) (xy 48.26 129.54)
 		)
 		(stroke
@@ -8028,7 +8040,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 132.08) (xy 111.76 132.08)
+			(xy 105.41 132.08) (xy 113.03 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8428,7 +8440,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 144.78) (xy 111.76 144.78)
+			(xy 105.41 144.78) (xy 113.03 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8537,7 +8549,7 @@
 		(uuid "0c3bede3-c13e-4dbe-b53b-d7a6ba1a015a")
 	)
 	(label "SDA"
-		(at 111.76 132.08 180)
+		(at 113.03 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8547,7 +8559,7 @@
 		(uuid "22051d1c-3869-4830-992d-1891586a49e9")
 	)
 	(label "BUSY"
-		(at 111.76 124.46 180)
+		(at 113.03 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8557,7 +8569,7 @@
 		(uuid "28747ed9-73dc-437d-b6d3-a64eb346e570")
 	)
 	(label "SDI"
-		(at 111.76 144.78 180)
+		(at 113.03 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8617,7 +8629,7 @@
 		(uuid "55baf4f0-704c-4039-9f93-8b9a5cbef495")
 	)
 	(label "SCLK"
-		(at 111.76 134.62 180)
+		(at 113.03 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8625,6 +8637,16 @@
 			(justify right bottom)
 		)
 		(uuid "55c63329-4edd-45ec-b07d-3969e4b95633")
+	)
+	(label "D1(TX)"
+		(at 113.03 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56005464-7f64-403a-baa2-a1a0e687f449")
 	)
 	(label "D-"
 		(at 22.86 34.29 180)
@@ -8637,7 +8659,7 @@
 		(uuid "5ff481d4-0c98-4233-b7e2-e5cc45936582")
 	)
 	(label "SCL"
-		(at 111.76 129.54 180)
+		(at 113.03 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8665,6 +8687,16 @@
 			(justify right bottom)
 		)
 		(uuid "7c09f6b7-79d2-483d-bb3e-4d28278ac769")
+	)
+	(label "D0(RX)"
+		(at 113.03 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90a54977-c026-4d50-b251-1545b4ab5fd8")
 	)
 	(label "SDA"
 		(at 26.67 82.55 180)
@@ -8787,7 +8819,7 @@
 		(uuid "d40b73a9-a2b8-43e9-904a-a092aee3c79e")
 	)
 	(label "RES"
-		(at 111.76 139.7 180)
+		(at 113.03 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8877,7 +8909,7 @@
 		(uuid "eefe0413-4993-4a3a-82f6-309586e879f4")
 	)
 	(label "D{slash}C"
-		(at 111.76 142.24 180)
+		(at 113.03 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8907,7 +8939,7 @@
 		(uuid "f4a2e5b5-fee8-4a58-b86e-5b7eece49690")
 	)
 	(label "CS"
-		(at 111.76 121.92 180)
+		(at 113.03 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
