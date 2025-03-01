@@ -204,13 +204,13 @@
 		(remove_unused_layers no)
 		(uuid "0a934426-4b70-41bc-8a14-591e247f82f9")
 	)
-	(pad "A1B12" smd rect
+	(pad "A1" smd rect
 		(at -3.2 -2.36)
 		(size 0.6 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c5904a2a-8e78-4b2f-8c99-cd10b4d5fb65")
 	)
-	(pad "A4B9" smd rect
+	(pad "A4" smd rect
 		(at -2.4 -2.36)
 		(size 0.6 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -240,13 +240,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fcd94686-3d25-4bc2-9012-a366d7c9fb44")
 	)
-	(pad "B1A12" smd rect
+	(pad "B1" smd rect
 		(at 3.2 -2.36)
 		(size 0.6 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a138e36-da7d-4c77-8997-671f7ffc8544")
 	)
-	(pad "B4A9" smd rect
+	(pad "B4" smd rect
 		(at 2.4 -2.36)
 		(size 0.6 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
