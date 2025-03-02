@@ -665,6 +665,26 @@
     [
       "7a2a2866-3554-4afd-98ff-5a0dcfcd5a77",
       "Root"
+    ],
+    [
+      "5531b4b5-7ba2-4341-9659-942af9d039b1",
+      "ePaper Display"
+    ],
+    [
+      "a7fc64b2-a701-4e4e-b844-ebfb05d6faf5",
+      "Power Supply"
+    ],
+    [
+      "bde5b1c4-281a-470d-99c9-8e759259c988",
+      "USB to serial"
+    ],
+    [
+      "edbf40e4-f623-4132-8b17-77d929a8e8fd",
+      "Air sensor"
+    ],
+    [
+      "e4f27246-e7e7-4832-b0c5-691b3f5592a8",
+      "ESP32"
     ]
   ],
   "text_variables": {}
